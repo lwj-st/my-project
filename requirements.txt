@@ -1,2 +1,2 @@
 lazyllm
-numpy
+pytest
