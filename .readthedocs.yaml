@@ -1,0 +1,20 @@
+# .readthedocs.yaml
+# Read the Docs 配置文件
+
+# 必需的版本字段
+version: 2
+
+# 设置构建环境
+build:
+  os: ubuntu-24.04
+  tools:
+    python: "3.10"  # MkDocs 需要 Python
+
+# 配置 MkDocs
+mkdocs:
+  configuration: mkdocs.yml  # 默认的 MkDocs 配置文件
+
+# 可选：指定 Python 依赖（如果有）
+#python:
+#  install:
+#    - requirements: requirements.txt  # 如果你有依赖文件
