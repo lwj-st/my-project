@@ -1,2 +1,2 @@
 lazyllm
-pymysql
+pytest
